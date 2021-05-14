@@ -2,9 +2,9 @@
   "name": "@danielsogl/jest-schematic",
   "version": "3.1.0",
   "description": "Schematic to add jest to an Angular CLI project",
-  "repository": "briebug/jest-schematic",
-  "bugs": "https://github.com/briebug/jest-schematic/issues",
-  "homepage": "https://github.com/briebug/jest-schematic",
+  "repository": "danielsogl/jest-schematic",
+  "bugs": "https://github.com/danielsogl/jest-schematic/issues",
+  "homepage": "https://github.com/danielsogl/jest-schematic",
   "main": "src/jest/index.js",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -21,13 +21,13 @@
     "jest",
     "angular"
   ],
-  "author": "Briebug",
+  "author": "Daniel Sogl",
   "license": "MIT",
   "schematics": "./src/collection.json",
   "dependencies": {
-    "@angular-devkit/core": "^10.2.3",
-    "@angular-devkit/schematics": "^10.2.3",
-    "@schematics/angular": "^10.2.3",
+    "@angular-devkit/core": "^12.0.0",
+    "@angular-devkit/schematics": "^12.0.0",
+    "@schematics/angular": "^12.0.0",
     "@schuchard/schematics-core": "^0.4.1",
     "rxjs": "6.5.5"
   },

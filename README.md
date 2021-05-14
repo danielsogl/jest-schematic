@@ -40,7 +40,7 @@ module.exports = {
 };
 ```
 
-Issues with this schematic can be filed [here](https://github.com/briebug/jest-schematic/issues/new/choose).
+Issues with this schematic can be filed [here](https://github.com/danielsogl/jest-schematic/issues/new/choose).
 
 ## Learning Resources 📚
 

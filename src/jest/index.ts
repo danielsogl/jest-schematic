@@ -44,6 +44,7 @@ export default function (options: JestOptions): Rule {
 }
 
 function updateDependencies(): Rule {
+  // @ts-ignore
   return (tree: Tree, context: SchematicContext): Observable<Tree> => {
     context.logger.debug('Updating dependencies...');
     context.addTask(new NodePackageInstallTask());
